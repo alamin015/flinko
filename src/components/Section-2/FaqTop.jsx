@@ -2,7 +2,7 @@
 import img from "../../assets/images/section-2.png";
 const FaqTop = () => {
   return (
-    <div className='container'>
+    <div>
       <div className='flex md:flex-row flex-col justify-between gap-14 sm:p-8 p-2'>
         <div>
           <h2 className='font-MuseoModerno  sm:text-5xl text-2xl font-medium text-primary'>{`Parents prioritizing a secure, balanced digital environment for their children's growth`}</h2>
