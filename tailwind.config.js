@@ -8,7 +8,20 @@ export default {
   ],
   presets: [keepPreset],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        primary: "#111",
+        secondary: "#585858"
+      },
+      fontFamily: {
+        MuseoModerno: ["MuseoModerno"],
+        Poppins: ["Poppins"]
+      },
+      container: {
+        padding: "1rem",
+        center: true
+      }
+    }
   },
   plugins: []
 };
