@@ -4,7 +4,7 @@ import img from "../../assets/images/map.png";
 
 const Map = () => {
   return (
-    <div className='mt-20'>
+    <div id='ko' className='sm:py-[75px] py-14'>
       <div className='customContainer'>
         <div className='container'>
           <div className='flex items-stretch flex-col sm:flex-row sm:gap-20 gap-5'>

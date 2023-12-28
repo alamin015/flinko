@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Starter",
+    "priceYearly": 96,
+    "priceMonthly": 30,
+    "includes": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ]
+  },
+  {
+    "title": "Flinko PRO",
+    "priceYearly": 240,
+    "priceMonthly": 25,
+    "includes": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ]
+  },
+  {
+    "title": "Free plan",
+    "priceYearly": false,
+    "priceMonthly": false,
+    "includes": [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet"
+    ]
+  }
+]

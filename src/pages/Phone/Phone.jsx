@@ -5,7 +5,7 @@ import PhoneContent from "../../components/Phone/PhoneContent";
 
 const Phone = () => {
   return (
-    <div className='mt-20'>
+    <div id='benefits' className='sm:py-[75px] py-14'>
       <div className='customContainer'>
         <div className='container'>
           <div className='flex items-stretch flex-col sm:flex-row  justify-between sm:gap-20 gap-4'>
