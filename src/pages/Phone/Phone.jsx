@@ -7,7 +7,7 @@ const Phone = () => {
   return (
     <div id='benefits' className='sm:py-[75px] py-14'>
       <div className='customContainer'>
-        <div className='container'>
+        <div className='container overflow-hidden'>
           <div className='flex items-stretch flex-col sm:flex-row  justify-between sm:gap-20 gap-4'>
             <div className='grow order-2 sm:order-1'>
               <PhoneContent />

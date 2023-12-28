@@ -6,7 +6,7 @@ import Phone from "../pages/Phone/Phone";
 import Join from "../pages/Join/Join";
 import Price from "../pages/Price/Price";
 import Banner from "../pages/Home/Banner";
-// import Testimonial from "../pages/Testimonial/Testimonial";
+import Testimonial from "../pages/Testimonial/Testimonial";
 
 const MainLayout = () => {
   return (
@@ -18,7 +18,7 @@ const MainLayout = () => {
       <Phone />
       <Join />
       <Price />
-      {/* <Testimonial /> */}
+      <Testimonial />
       <Footer />
     </>
   );

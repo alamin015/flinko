@@ -97,7 +97,8 @@ body {
   filter: blur(116px);
 }
 
-.gradientBtn {
+.gradientBtn,
+.gradientHover:hover {
   background: linear-gradient(152deg, #182e76 15.31%, #37233b 100%);
   transition: all 0.3s;
 }
@@ -112,6 +113,9 @@ body {
 #card:hover {
   border-radius: 20px;
   border: 1px solid (#37233b, #182e76);
+}
+.active {
+  color: white;
   background: linear-gradient(152deg, #182e76 15.31%, #37233b 100%);
 }
 
@@ -119,48 +123,17 @@ body {
   background: linear-gradient(152deg, #182e76 15.31%, #37233b 100%);
   transition: all 0.5s;
   color: white;
+  border: 1px solid #37233b;
 }
 
 #card:hover .cardBtn {
   background: white;
   color: #37233b;
-  border: 1px solid (#37233b, #182e76);
+  border: 1px solid #37233b;
 }
 
 .toggleBtn {
   background: linear-gradient(152deg, #182e76 15.31%, #37233b 100%);
-}
-.slick-slider button.slick-arrow.slick-prev {
-  position: absolute;
-  margin-top: 150px;
-  width: 50px;
-  height: 50px;
-  background: green;
-  border-radius: 50%;
-  left: 47%;
-  transform: translateX(-50%);
-}
-.slick-slider button.slick-arrow.slick-next {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-
-  border-radius: 50%;
-  margin-top: 150px;
-  right: 47%;
-  transform: translateX(-50%);
-}
-.slick-slider button.slick-arrow.slick-prev:before,
-.slick-slider button.slick-arrow.slick-next:before {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-  inset: 0;
-  font-size: 30px;
-  border-radius: 50%;
-  /* color: #585858ab; */
-  background: red;
 }
 
 #footerGradient {
@@ -173,4 +146,15 @@ body {
   opacity: 0.5;
   background: #04215b;
   filter: blur(116.5px);
+}
+
+.customCarousel .inner {
+  white-space: nowrap;
+  transition: transform 0.4s;
+}
+.customCarousel .carouselItem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: normal;
 }

@@ -13,13 +13,13 @@ const HomeContent = () => {
         your child's digital journey while fostering their well-being
       </p>
       <div className='sm:flex items-center gap-8'>
-        <button className='btn w-full sm:w-auto border border-white rounded-full flex items-center transition-all font-Poppins mb-5 sm:mb-0 hover:bg-white hover:text-primary'>
+        <button className='btn w-full sm:w-auto border border-white rounded-full flex items-center justify-center transition-all font-Poppins mb-5 sm:mb-0 hover:bg-white hover:text-primary'>
           <span className='pr-2'>
             <img src={appStore} alt='' />
           </span>
           Dashboard
         </button>
-        <button className='btn w-full sm:w-auto border border-white rounded-full flex items-center transition-all font-Poppins hover:bg-white hover:text-primary'>
+        <button className='btn w-full sm:w-auto border border-white rounded-full flex items-center justify-center transition-all font-Poppins hover:bg-white hover:text-primary'>
           <span className='pr-2'>
             <img src={googlePlay} alt='' />
           </span>

@@ -29,7 +29,7 @@ const CustomAccordion = () => {
               <IoIosArrowDown size={24} />
             </Accordion.Icon>
           </Accordion.Container>
-          <Accordion.Content className='font-MuseoModerno text-base sm:text-[18px] text-secondary'>
+          <Accordion.Content className='font-MuseoModerno text-sm sm:text-[18px] text-secondary'>
             {item.content}
           </Accordion.Content>
         </Accordion.Panel>

@@ -1,0 +1,20 @@
+[
+  {
+    "image": "https://i.ibb.co/kDw1xh3/customer.png",
+    "name": "Dianne Russell",
+    "star": 4.2,
+    "comment": "The customer reviews section played a big role in building my trust. Seeing positive testimonials and the star rating system convinced me that this is a reliable service. The delivery information is transparent, and my order arrived exactly as promised."
+  },
+  {
+    "image": "https://i.ibb.co/kDw1xh3/customer.png",
+    "name": "John Doe",
+    "star": 3.6,
+    "comment": "The customer reviews section played a big role in building my trust. Seeing positive testimonials and the star rating system convinced me that this is a reliable service. The delivery information is transparent, and my order arrived exactly as promised."
+  },
+  {
+    "image": "https://i.ibb.co/kDw1xh3/customer.png",
+    "name": "Tamim Iqbal",
+    "star": 4,
+    "comment": "The customer reviews section played a big role in building my trust. Seeing positive testimonials and the star rating system convinced me that this is a reliable service. The delivery information is transparent, and my order arrived exactly as promised."
+  }
+]

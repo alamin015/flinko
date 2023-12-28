@@ -1,4 +1,4 @@
-const Start = () => {
+const StarsForMap = () => {
   return (
     <div>
       <svg
@@ -40,4 +40,4 @@ const Start = () => {
   );
 };
 
-export default Start;
+export default StarsForMap;

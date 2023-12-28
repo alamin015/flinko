@@ -51,7 +51,7 @@ const Header = () => {
             </div>
 
             {/* when menu open it works  */}
-            <OpenMenu open={open} />
+            <OpenMenu open={open} setOpen={setOpen} />
           </div>
         </div>
       </div>

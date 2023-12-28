@@ -4,7 +4,7 @@
 import List from "./List";
 import SideBtn from "./SideBtn";
 
-const OpenMenu = ({ open }) => {
+const OpenMenu = ({ open, setOpen }) => {
   return (
     <div
       className={`absolute transition-all duration-500 left-0 top-0 w-full mt-[52px] h-[70vh] ${
@@ -17,7 +17,7 @@ const OpenMenu = ({ open }) => {
         <div className='flex items-center justify-center'>
           <div className='w-full text-center'>
             <ul className={`${open ? "visible" : "invisible"} transition-all`}>
-              {<List />}
+              {<List setOpen={setOpen} />}
             </ul>
             <SideBtn open={open} />
           </div>

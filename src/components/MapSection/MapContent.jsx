@@ -1,4 +1,4 @@
-import Start from "../Start";
+import StarsForMap from "../StarsForMap";
 
 const MapContent = () => {
   return (
@@ -28,13 +28,13 @@ const MapContent = () => {
         </div>
         <div>
           <h2 className='sm:text-[48px] text-3xl text-primary flex items-center gap-1  leading-tight font-semibold'>
-            <Start /> <span>4.9</span>
+            <StarsForMap /> <span>4.9</span>
           </h2>
           <p className='text-base text-secondary'>In Apps store</p>
         </div>
         <div>
           <h2 className='sm:text-[48px] text-3xl text-primary flex items-center gap-1  leading-tight font-semibold'>
-            <Start /> <span>4.5</span>
+            <StarsForMap /> <span>4.5</span>
           </h2>
           <p className='text-base text-secondary'>In Google Play store</p>
         </div>

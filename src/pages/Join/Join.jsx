@@ -6,7 +6,7 @@ const Join = () => {
         <div className='container'>
           <div
             id='join'
-            className='relative h-[500px] border border-[#B0AEC4] rounded-[60px] flex items-center justify-center'
+            className='relative sm:h-[500px] h-auto p-4  border border-[#B0AEC4] sm:rounded-[60px] rounded-[20px] flex items-center justify-center'
           >
             <div className='absolute custom-radial'></div>
             <div className='text-center md:w-[574px] w-full mx-auto px-2 sm:px-0'>

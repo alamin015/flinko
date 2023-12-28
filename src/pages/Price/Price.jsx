@@ -4,7 +4,7 @@ import ToggleBtn from "../../components/PriceCard/ToggleBtn";
 
 const Price = () => {
   return (
-    <div id='pricing' className='py-14 sm:py-[75px]'>
+    <div id='pricing' className='py-14 sm:py-[75px] bg-[#fafafa]'>
       <div className='customContainer'>
         <div className='container'>
           <div className='text-center max-w-[768px] mx-auto'>
