@@ -9,4 +9,5 @@
 ## For locally run the project
 
 - command -> npm run dev
-  [screenshot of the page](https://i.ibb.co/KrmW8Xn/ss.png)
+
+[screenshot of the page](https://i.ibb.co/KrmW8Xn/ss.png)
