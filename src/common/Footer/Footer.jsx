@@ -4,6 +4,7 @@ import linkedin from "../../assets/social/linkedin.png";
 import yotube from "../../assets/social/yotube.png";
 import insta from "../../assets/social/insta.png";
 import logo from "../../assets/logo/Logo.png";
+import { menu } from "../Header/Link";
 const Footer = () => {
   return (
     <div className='py-14 bg-[#0F0910] overflow-hidden'>
@@ -14,16 +15,22 @@ const Footer = () => {
             <img src={logo} className='mb-10' alt='' />
             <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 text-white gap-3'>
               <div className='text-white list-none'>
-                <li className='mb-5'>Home</li>
-                <li className='mb-5'>Features</li>
-                <li className='mb-5'>Why ko</li>
-                <li className='mb-5'>Benefits</li>
-                <li className='mb-5'>Pricing</li>
+                {menu.map((item, index) => (
+                  <li key={index} className='mb-5'>
+                    <a href={item.path}>{item.label}</a>
+                  </li>
+                ))}
               </div>
               <div className='list-none'>
-                <li className='mb-5'>Blog</li>
-                <li className='mb-5'>Privacy policy</li>
-                <li className='mb-5'>Terms of Condition</li>
+                <li className='mb-5'>
+                  <a href='#'>Blog</a>
+                </li>
+                <li className='mb-5'>
+                  <a href='#'>Privacy policy</a>
+                </li>
+                <li className='mb-5'>
+                  <a href='#'>Terms of Condition</a>
+                </li>
               </div>
               <div className='list-none'>
                 <li className='mb-5'>(303) 555-0105</li>
@@ -46,7 +53,7 @@ const Footer = () => {
               <div></div>
             </div>
             <p className='mt-14 text-white'>
-              &copy; 2023 Logoipsim, All rights reserved
+              &copy; {new Date().getFullYear()} Logoipsim, All rights reserved
             </p>
           </div>
         </div>

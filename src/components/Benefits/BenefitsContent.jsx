@@ -1,7 +1,7 @@
-const PhoneContent = () => {
+const BenefitsContent = () => {
   return (
     <div>
-      <h2 className='sm:text-[48px] text-3xl font-medium text-primary mb-6 leading-tight'>
+      <h2 className='lg:text-[48px] text-3xl font-semibold text-primary mb-6 leading-tight'>
         We’re here to help with your concerns
       </h2>
       {/* group-1  */}
@@ -15,11 +15,11 @@ const PhoneContent = () => {
               height={46}
               alt=''
             />
-            <h3 className='sm:text-2xl text-xl font-medium text-primary'>
+            <h3 className='lg:text-2xl text-xl font-medium text-primary'>
               Peace of Mind
             </h3>
           </div>
-          <p className='sm:text-[18px] text-base text-secondary font-medium'>{`Take charge of your child's digital journey, with features that promote responsible screen time and productive activities.`}</p>
+          <p className='lg:text-[18px] text-base text-secondary font-medium'>{`Take charge of your child's digital journey, with features that promote responsible screen time and productive activities.`}</p>
         </div>
         <hr className='bg-[#B0AEC4] my-4' />
 
@@ -33,11 +33,11 @@ const PhoneContent = () => {
               height={46}
               alt=''
             />
-            <h3 className='sm:text-2xl text-xl font-medium text-primary'>
-              Peace of Mind
+            <h3 className='lg:text-2xl text-xl font-medium text-primary'>
+              Empowerment
             </h3>
           </div>
-          <p className='sm:text-[18px] text-base text-secondary font-medium'>{`Take charge of your child's digital journey, with features that promote responsible screen time and productive activities.`}</p>
+          <p className='lg:text-[18px] text-base text-secondary font-medium'>{`With Flinko, you can rest assured that your child's online experiences are both enriching and safe`}</p>
         </div>
         <hr className='bg-[#B0AEC4] my-4' />
         {/* group 3  */}
@@ -49,15 +49,15 @@ const PhoneContent = () => {
               height={46}
               alt=''
             />
-            <h3 className='sm:text-2xl text-xl font-medium text-primary'>
-              Peace of Mind
+            <h3 className='lg:text-2xl text-xl font-medium text-primary'>
+              Connection
             </h3>
           </div>
-          <p className='sm:text-[18px] text-base text-secondary font-medium'>{`Take charge of your child's digital journey, with features that promote responsible screen time and productive activities.`}</p>
+          <p className='lg:text-[18px] text-base text-secondary font-medium'>{`Bridge the digital divide by fostering open conversations about technology and its impact on their lives.`}</p>
         </div>
       </div>
     </div>
   );
 };
 
-export default PhoneContent;
+export default BenefitsContent;

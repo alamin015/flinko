@@ -14,7 +14,7 @@ const Price = () => {
             </p>
             <ToggleBtn />
           </div>
-          <div className='grid grid-cols-1 items-stretch sm:grid-cols-2 md:grid-cols-3 gap-8'>
+          <div className='grid grid-cols-1 items-stretch md:grid-cols-2 lg:grid-cols-3  gap-8'>
             {Card.map((item, index) => (
               <PriceCard key={index} data={item} />
             ))}

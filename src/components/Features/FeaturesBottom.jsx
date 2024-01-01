@@ -2,7 +2,7 @@
 
 import CustomAccordion from "./CustomAccordion";
 
-const FaqBottom = () => {
+const FeaturesBottom = () => {
   return (
     <div className='mt-8'>
       <div className='sm:p-8 p-2'>
@@ -12,4 +12,4 @@ const FaqBottom = () => {
   );
 };
 
-export default FaqBottom;
+export default FeaturesBottom;

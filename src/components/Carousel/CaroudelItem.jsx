@@ -9,7 +9,7 @@ const CaroudelItem = ({ item }) => {
     <div className='carouselItem'>
       <div className='border rounded-[20px] sm:py-[80px] sm:px-[40px] p-4 flex items-center justify-center'>
         <div className='text-center'>
-          <h3 className='sm:text-[28px] text-[18px] text-secondary'>
+          <h3 className='md:text-[28px] text-[18px] text-secondary'>
             {item?.comment}
           </h3>
           <div className='text-center max-w-[300px] w-full mx-auto flex items-center justify-center gap-4 mt-14'>

@@ -9,13 +9,9 @@ html {
 }
 @layer components {
   .btn {
-    @apply px-5 py-3 rounded-full sm:w-auto w-full font-Poppins text-sm font-medium;
+    @apply px-5 py-3 rounded-full sm:w-auto w-full  text-sm font-medium;
   }
   .btn-outline-white {
     @apply border border-[#fff] text-white bg-transparent hover:bg-white hover:text-primary transition-all;
   }
 }
-
-/* #bg {
-  background: transparent;
-} */

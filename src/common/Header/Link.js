@@ -8,7 +8,7 @@ export const menu = [
     path: "#features"
   },
   {
-    label: "Why ko",
+    label: "Why Flinko",
     path: "#ko"
   },
   {

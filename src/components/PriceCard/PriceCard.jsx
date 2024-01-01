@@ -27,7 +27,7 @@ const PriceCard = ({ data }) => {
         </h4>
         <div className='flex items-center my-3'>
           <span
-            className={`sm:text-heading-4 duration-500 transition-all  text-2xl font-bold ${
+            className={`sm:text-heading-4 duration-500 transition-all  text-4xl font-bold ${
               data.active ? "text-white" : "text-primary"
             }`}
           >
@@ -72,7 +72,16 @@ const PriceCard = ({ data }) => {
           ))}
         </div>
       </div>
-      <button className='btn w-full  cardBtn'>Get Started</button>
+
+      <button
+        className={`btn w-full   ${
+          data.active
+            ? "bg-white text-[#37233b] border border-[#37233b]"
+            : "cardBtn"
+        }`}
+      >
+        Get Started
+      </button>
     </div>
   );
 };

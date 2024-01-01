@@ -17,10 +17,9 @@ const CustomAccordion = () => {
             <Accordion.Title>
               <div className='flex items-center gap-3'>
                 <span className='border border-[#B0AEC4] h-9 w-9 rounded-lg flex items-center justify-center'>
-                  {/* <CiClock1 size={24} /> */}
                   <img src={item.icon} alt='' />
                 </span>
-                <h2 className='font-medium font-MuseoModerno sm:text-2xl text-[18px] text-primary'>
+                <h2 className='font-medium  sm:text-2xl text-[18px] text-primary'>
                   {item.title}
                 </h2>
               </div>
@@ -29,7 +28,7 @@ const CustomAccordion = () => {
               <IoIosArrowDown size={24} />
             </Accordion.Icon>
           </Accordion.Container>
-          <Accordion.Content className='font-MuseoModerno text-sm sm:text-[18px] text-secondary'>
+          <Accordion.Content className='text-base font-medium sm:text-[18px] text-secondary'>
             {item.content}
           </Accordion.Content>
         </Accordion.Panel>
