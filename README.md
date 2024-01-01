@@ -10,4 +10,7 @@
 
 - command -> npm run dev
 
+## screen shot of the page
+
 [screenshot of the page](https://i.ibb.co/KrmW8Xn/ss.png)
+<img src="https://i.ibb.co/KrmW8Xn/ss.png" />
